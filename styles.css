@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100vh;          /* Full viewport height */
+    background-color: #000000; /* Black background */
+    font-family: 'Dancing Script', cursive;
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .container {
+    text-align: center; /* Center the text inside the container */
+  }
+  
+  div {
+    border: 2.5px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px; /* Add spacing between divs */
+    width: fit-content; /* Adjust width to fit content */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000; /* Black text on white background */
+    font-size: 1.5rem;
+  }
+  
+  a:hover {
+    color: #222221e5; /* Change color on hover */
+  }
+  
